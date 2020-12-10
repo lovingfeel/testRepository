@@ -7,6 +7,9 @@ import (
 	"strings"
 )
 
+/**
+添加注释 ，测试远程长裤
+*/
 func main() {
 	path := getCurrentPath()
 	fmt.Println(path)
@@ -25,4 +28,3 @@ func checkErr(err error) {
 		panic(err)
 	}
 }
-
